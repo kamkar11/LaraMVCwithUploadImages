@@ -14,4 +14,8 @@ class ProductController extends Controller
 
         return view('product.index', compact('products'));
     }
+
+    public function create(){
+        return view('product.create');
+    }
 }
