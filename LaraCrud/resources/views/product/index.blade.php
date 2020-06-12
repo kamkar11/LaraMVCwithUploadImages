@@ -50,5 +50,8 @@
     </table>
 
 
+    {{  $products->links() }}
+
+
 
 @endsection
