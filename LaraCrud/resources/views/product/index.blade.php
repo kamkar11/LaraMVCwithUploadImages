@@ -40,7 +40,8 @@
                 <td>
                     <a class="btn btn-info" href="">Show</a>
                     <a class="btn btn-primary" href="{{ URL::to('edit/product/'.$pro->id) }}">Edit</a>
-                    <a class="btn btn-danger" href="">Delete</a>
+                    <a class="btn btn-danger" href="{{ URL::to('delete/product/'.$pro->id) }}"
+                        onclick="return confirm('Are you sure ?')">Delete</a>
                 </td>
 
         </tr>

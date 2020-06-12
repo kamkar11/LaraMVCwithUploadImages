@@ -28,4 +28,6 @@ Route::post('/update/product/{id}', 'ProductController@update')->name('update.pr
 
 Route::post('/store', 'ProductController@store')->name('product.store');
 
+Route::get('/delete/product/{id}', 'ProductController@delete')->name('delete.product');
+
 Route::get('/home', 'HomeController@index')->name('home');
