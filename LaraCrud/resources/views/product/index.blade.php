@@ -39,7 +39,7 @@
                 <td><img src="{{ URL::to($pro->logo) }}" height="70px" width="85px"></td>
                 <td>
                     <a class="btn btn-info" href="">Show</a>
-                    <a class="btn btn-primary" href="">Edit</a>
+                    <a class="btn btn-primary" href="{{ URL::to('edit/product/'.$pro->id) }}">Edit</a>
                     <a class="btn btn-danger" href="">Delete</a>
                 </td>
 
